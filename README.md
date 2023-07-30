@@ -23,6 +23,7 @@ Applies a convolution kernel to an image
 ## Keybinds
 
 **X**: Close window
+
 **S**: Save convoluted image
 
 ## Progress
