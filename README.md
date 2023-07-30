@@ -6,19 +6,19 @@ Applies a convolution kernel to an image
 
 ### Box blur
 
-`python3 convolutionKernel.py *filename* box-blur *kernel size*`
+`python3 convolutionKernel.py <filename> box-blur <kernel size>`
 
 ### Normalized box-blur
 
-`python3 convolutionKernel.py *filename* normalized-box-blur *kernel size*`
+`python3 convolutionKernel.py <filename> normalized-box-blur <kernel size>`
 
 ### Gaussian blur
 
-`python3 convolutionKernel.py *filename* gaussian-blur *kernel size* *sigma*`
+`python3 convolutionKernel.py <filename> gaussian-blur <kernel size> <sigma>`
 
 ### Custom
 
-`python3 convolutionKernel.py *filename* *kernel entries in right-to-left, top-to-bottom order*`
+`python3 convolutionKernel.py <filename> <kernel entries in right-to-left, top-to-bottom order>`
 
 ## Keybinds
 
@@ -38,8 +38,6 @@ Applies a convolution kernel to an image
 * For sure a convolution kernel meant to get outlines. Can't find an exact match.
 * Colors seem to be inverted for some reason, which I don't believe convolution kernels can do on their own. Maybe this is a part of the step if we were to apply this to other forms of data.
 * The border is grey; I've seen convolution kernels do this when I was testing with custom ones, but I'm not sure which one is the right one because the colors are inverted as per the previous point. Should make a program to invert the colors (subtract the greyscale and/or individual RGB values from 255) and then use that to help compare.
-
-For sure
 
 ## To-do
 
